@@ -2,7 +2,9 @@ import { CardsContainer } from "./cards.styles"
 
 const Cards = () => {
     return (
-        <CardsContainer></CardsContainer>
+        <CardsContainer>
+            Cards
+        </CardsContainer>
     )
 }
 
