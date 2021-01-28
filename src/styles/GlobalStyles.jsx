@@ -33,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     outline: none;
     font-family: 'GoogleSans';
+    font-display: block;
   }
   
   a {
