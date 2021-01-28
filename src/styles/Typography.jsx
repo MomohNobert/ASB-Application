@@ -83,3 +83,11 @@ export const TECFont = styled.p`
     line-height: 15px;
     color: #878592;
 `
+
+export const SBTitle = styled.h3`
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+`
