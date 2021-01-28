@@ -33,7 +33,17 @@ const TableLine = ({ line }) => {
                 <Issue issue={issues} />
             </th>
             <th className="th-entries">
-                <TETFont>• {entries} Unique Entries</TETFont>
+                <TETFont>
+                    {
+                        entries <= 0 ?
+                        "• No Unique Entry"
+                        :
+                        entries === 1 ?
+                        "• 1 Unique Entry"
+                        :
+                        `• ${entries} Unique Entries`
+                    }
+                </TETFont>
                 <TECFont>
                     {
                         type === 'ho' ?
