@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const CardsContainer = styled.div`
-    height: 106px;
+    height: 130px;
     width: 100%;
     margin-bottom: 15px;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 `;
