@@ -4,8 +4,8 @@ import SearchImg from './assets/search.svg'
 const Search = () => {
     return (
         <SearchContainer>
-            <InputContainer />
-            <img src={SearchImg} alt="Search" aria-label="Search" />
+            <InputContainer  aria-label="Search" />
+            <img src={SearchImg} alt="Search" />
         </SearchContainer>
     )
 }
