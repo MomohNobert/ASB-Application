@@ -1,9 +1,38 @@
 import { createGlobalStyle } from 'styled-components';
 
+import SansRegular from './fonts/ProductSans-Regular.ttf';
+import SansMedium from './fonts/ProductSans-Medium.ttf';
+import SansBold from './fonts/ProductSans-Bold.ttf';
+
 export const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'GoogleSans';
+    src: url(${SansRegular}) format('truetype');
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'GoogleSans';
+    src: url(${SansMedium}) format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'GoogleSans';
+    src: url(${SansBold}) format('truetype'),;
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+  }
+
   * {
     margin: 0;
     border: 0;
+    outline: none;
+    font-family: 'GoogleSans';
   }
   
   a {
@@ -20,12 +49,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: white;
-    width: 100vw;
     overflow-x: hidden;
-    font-family: Rubik;
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'GoogleSans';
+    background: rgba(0,0,0,0.05);
   }
 
   ::-webkit-scrollbar {
