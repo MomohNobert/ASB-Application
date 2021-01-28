@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const SearchContainer = styled.div`
     height: 100%;
-    background: #FFFFFF;
     display: grid;
     margin-left: 30px;
     place-items: center;

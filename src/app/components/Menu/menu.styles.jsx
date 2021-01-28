@@ -10,7 +10,7 @@ export const MenuContainer = styled.div`
 
 export const MenuItem = styled.div`
     width: 33.3%;
-    height: 100%;
+    height: calc(100% - 4px);
     display: flex;
     align-items: center;
     justify-content: center;
