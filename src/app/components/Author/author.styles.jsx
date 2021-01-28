@@ -7,6 +7,10 @@ export const AuthorContainer = styled.div`
     align-items: center;
     justify-content: center;
 
+    img {
+        cursor: pointer;
+    }
+
     .author {
         margin-right: 10px;
     }

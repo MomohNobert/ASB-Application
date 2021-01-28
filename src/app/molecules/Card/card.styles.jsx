@@ -27,4 +27,8 @@ export const CardImage = styled.div`
     align-items: flex-start;
     justify-content: flex-end;
     margin-right: 10px;
+
+    img {
+        cursor: pointer;
+    }
 `

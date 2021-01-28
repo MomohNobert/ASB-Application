@@ -45,7 +45,7 @@ const TableLine = ({ line }) => {
             </th>
             <th className="th-risk-profile">
                 <RiskProfile risk={risk_profile} />
-                <img src={OptionsImg} alt="options" />
+                <img src={OptionsImg} alt="options" className="options" />
             </th>
         </TRContainer>
     )

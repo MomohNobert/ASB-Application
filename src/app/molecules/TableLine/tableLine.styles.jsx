@@ -45,6 +45,10 @@ export const TRContainer = styled.tr`
         display: flex;
         align-items: center;
         justify-content: flex-start;
+
+        .options {
+            cursor: pointer;
+        }
     }
 
     .th-location,

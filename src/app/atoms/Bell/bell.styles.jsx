@@ -5,4 +5,8 @@ export const BellContainer = styled.div`
     height: 100%;
     display: grid;
     place-items: center;
+
+    img {
+        cursor: pointer;
+    }
 `

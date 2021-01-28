@@ -14,7 +14,8 @@ export const MenuItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
+    cursor: pointer;
     border-bottom: ${({active}) => active ? "4px solid #006FD6" : "4px solid transparent"};
     background-color: ${({active}) => active ? "#DEEFFF" : "none"};
 
@@ -28,5 +29,10 @@ export const MenuItem = styled.div`
     img {
         margin-top: 5px;
         margin-right: 10px;
+    }
+
+    &:hover {
+        border-bottom: ${({active}) => active ? "4px solid #006FD6" : "4px solid #DEEFFF"};
+        background-color: #DEEFFF 
     }
 `
