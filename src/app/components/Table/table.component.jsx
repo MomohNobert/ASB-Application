@@ -8,9 +8,9 @@ const Table = () => {
         <TableContainer>
             <tbody>
                 <tr className="title-table">
-                    <div  className="input-container">
+                    <th  className="input-container">
                         <input type="checkbox" />
-                    </div>
+                    </th>
                     <th className="name"><TTFont>Name</TTFont></th>
                     <th className="location"><TTFont>Location</TTFont></th>
                     <th className="status"><TTFont>Status</TTFont></th>
