@@ -5,7 +5,7 @@ const Search = () => {
     return (
         <SearchContainer>
             <InputContainer />
-            <img src={SearchImg} alt="Search" />
+            <img src={SearchImg} alt="Search" aria-label="Search" />
         </SearchContainer>
     )
 }

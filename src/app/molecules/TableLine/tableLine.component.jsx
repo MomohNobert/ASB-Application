@@ -19,7 +19,7 @@ const TableLine = ({ line }) => {
     return (
         <TRContainer>
             <th  className="th-input-container">
-                <input type="checkbox" />
+                <input type="checkbox" aria-label="Table Checkbox" />
                 <img src={UnionImg} alt="union" />
             </th>
             <th className="th-name">
