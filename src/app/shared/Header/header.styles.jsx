@@ -14,6 +14,7 @@ export const THContent = styled.div`
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
 `
 
 export const FlexLeft = styled.div`

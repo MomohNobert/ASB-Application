@@ -7,6 +7,7 @@ export const CardContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
     border-radius: 6px;
 `;
 

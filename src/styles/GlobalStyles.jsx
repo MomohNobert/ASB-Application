@@ -51,7 +51,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     overflow-x: hidden;
     font-family: 'GoogleSans';
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.01);
   }
 
   ::-webkit-scrollbar {
