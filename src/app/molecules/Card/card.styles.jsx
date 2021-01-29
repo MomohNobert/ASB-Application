@@ -18,6 +18,10 @@ export const CardContent = styled.div`
     align-items: flex-start;
     justify-content: center;
     margin-left: 10px;
+
+    p {
+        font-weight: 500;
+    }
 `
 
 export const CardImage = styled.div`

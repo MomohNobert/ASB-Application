@@ -34,7 +34,7 @@ export const SBHFont = styled.h1`
 `
 
 export const SBCFont = styled.p`
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 140%;
     color: #0F1A4F;

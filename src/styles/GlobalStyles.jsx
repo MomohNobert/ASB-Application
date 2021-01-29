@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'GoogleSans';
     src: url(${SansMedium}) format('truetype');
-    font-style: normal;
     font-weight: 500;
     font-display: swap;
   }
@@ -51,7 +50,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     overflow-x: hidden;
     font-family: 'GoogleSans';
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.02);
   }
 
   ::-webkit-scrollbar {

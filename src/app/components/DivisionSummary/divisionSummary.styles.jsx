@@ -34,7 +34,7 @@ export const DSItem = styled.div`
     }
 
     p {
-        font-weight: 700;
+        font-weight: 500;
     }
 
     .journal {
