@@ -73,7 +73,7 @@ export const TETFont = styled.p`
     font-size: 12px;
     line-height: 15px;
     color: #25213B;
-    font-weight: 500;
+    font-weight: 700;
 `
 
 export const TECFont = styled.p`

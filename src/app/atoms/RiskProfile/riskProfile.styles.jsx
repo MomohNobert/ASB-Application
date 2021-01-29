@@ -13,7 +13,7 @@ export const RPContainer = styled.div`
     }
 
     p {
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .high {
