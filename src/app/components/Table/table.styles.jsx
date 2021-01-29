@@ -4,6 +4,7 @@ export const TableContainer = styled.table`
     height: 62.5vh;
     width: 79.25%;
 
+
     tbody {
         width: 100%;
     }

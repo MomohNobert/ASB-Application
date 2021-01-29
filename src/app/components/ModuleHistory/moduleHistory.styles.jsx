@@ -2,14 +2,14 @@ import styled from 'styled-components'
 
 export const MHContainer = styled.div`
     width: 95%;
-    height: 55%;
+    height: 57.5%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
 `;
 
 export const MHTitle = styled.div`
-    height: 50px;
+    height: 55px;
     width: 100%;
     display: flex;
     align-items: center;

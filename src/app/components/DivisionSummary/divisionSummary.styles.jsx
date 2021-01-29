@@ -1,18 +1,20 @@
 import styled from 'styled-components'
 
 export const DSContainer = styled.div`
-    width: 95%;
-    height: 45%;
-    margin-left: 5%;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 6px;
 `;
 
 export const DSTitle = styled.div`
-    height: 50px;
+    height: 55px;
     width: 100%;
     display: flex;
     align-items: center;
+    margin-left: 5%;
 
     img {
         margin-right: 10px;
@@ -20,7 +22,8 @@ export const DSTitle = styled.div`
 `
 
 export const DSItem = styled.div`
-    height: 12.5%;
+    height: 13.5%;
+    margin-left: 5%;
     width: 100%;
     display: flex;
     align-items: center;

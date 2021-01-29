@@ -9,7 +9,7 @@ const Table = () => {
             <tbody>
                 <tr className="title-table">
                     <th  className="input-container">
-                        <input type="checkbox" />
+                        <input type="checkbox" aria-label="Table Checkbox" />
                     </th>
                     <th className="name"><TTFont>Name</TTFont></th>
                     <th className="location"><TTFont>Location</TTFont></th>
