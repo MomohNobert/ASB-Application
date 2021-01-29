@@ -12,5 +12,6 @@ export const IssueContainer = styled.div`
 
     p {
         color: ${({issue}) => issue ? "#F4B400" : "#8C70FF" };
+        font-weight: 500;
     }
 `
